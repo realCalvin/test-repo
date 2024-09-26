@@ -1,0 +1,26 @@
+{
+  "name": "default.spark_glue",
+  "authorizationMode": "PROJECT",
+  "description": "This is a default SPARK_GLUE connection.",
+  "domainIdentifier": "dzd_ch4mxtm7gfov1j",
+  "environmentIdentifier": "4a6pz543x5llt3",
+  "location": {
+    "awsRegion": "us-east-1",
+    "awsAccountId": "151577201588"
+  },
+  "projectIdentifier": "bpkjz2nkkhmsdj",
+  "provisioningType": "MANAGED",
+  "sparkGlueProperties": {
+    "glueConnection": {
+      "name": "maxdome-glue-network-connection-bpkjz2nkkhmsdj-dev"
+    },
+    "sessionConfigs": {
+      "glue_version": "4.0",
+      "idle_timeout": 60,
+      "number_of_workers": 10,
+      "worker_type": "G.1X"
+    }
+  },
+  "type": "SPARK_GLUE",
+  "useExistingAwsResource": true
+}
